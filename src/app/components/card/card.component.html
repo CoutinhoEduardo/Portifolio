@@ -1,0 +1,11 @@
+<!-- <li *ngFor="let item of dadosExperiencias?.tecnologias; index as i;">{{dadosExperiencias?.titulo}}</li> -->
+<div (click)="encaminhaParaLink()"  class="card">
+    <img src="{{dadosExperiencias?.urlImage}}" alt="">
+    <h1>TECNOLOGIAS USADAS:</h1>
+    <ul>
+        <li *ngFor="let item of dadosExperiencias?.tecnologias; index as i;">- {{item}}</li>
+    </ul>
+    <p class="descricao">
+        {{dadosExperiencias?.descricao}}
+    </p>
+</div>

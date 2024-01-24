@@ -1,0 +1,33 @@
+<app-header></app-header>
+<body>
+    <div class="sobre-mim">
+        <img src="../../../assets/imgs/perfil.jpeg" alt="">
+        <div class="textos-sobre-mim">
+            <p>
+                Meu nome é Eduardo Coutinho
+                sou estudante e desenvolvedor com conhecimento nas seguintes tecnologias:
+            </p>
+            <ul>
+                <li><a href="">- JavaScript</a></li>
+                <li><a href="">- Angular</a></li>
+                <li><a href="">- VueJs</a></li>
+                <li><a href="">- Node</a></li>
+                <li><a href="">- Dot Net Core</a></li>
+                <li><a href="">- SQL</a></li>
+            </ul>
+            <span>
+                <p>Possuo experiência trabalhando contratado e tambem com freelance em que desenvolvi o novo site da <a href="https://ciamotos.com.br">CIA MOTOS</a></p>
+            </span>
+        </div>
+    </div>
+    <div class="div-experiencias-titulo">
+        <h1>Experiências</h1>
+    </div>
+    <div class="div-card">
+        <app-card class="card" *ngFor="let dadosExperiencia of dadosExperiencias; index as i;" [dadosExperiencias]="dadosExperiencia"></app-card>
+    </div>
+
+    <div class="div-contato-titulo">
+        <h1>Contato</h1>
+    </div>
+</body>

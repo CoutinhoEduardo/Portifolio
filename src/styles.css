@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --blue: #3C82F6;
+    --grey: #707070;
+    --light-grey: #C3C3C3;
+    --light-black: #1F3345;
+    --ice: #F4F4F4;
+    --rounded: 9px;
+    --white: #FFFF;
+    --very-light-grey: #F2F2F2;
+    --dark-background: #2d2d30;
+  }
+  
+  body{   
+    background:  #2F3438;
+  }
+
+
+  * {
+    letter-spacing: 0.3ch;
+    /* font-family: 'Love Ya Like A Sister'; */
+    font: normal normal normal 18px/23px 'Love Ya Like A Sister';
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  a{
+    color:var(--white)
+  }
